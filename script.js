@@ -25,7 +25,8 @@ const intervalo = setInterval(() => {
   if (vida <= 0) {
     vida = 0;
     console.log("¡Game Over! El jugador se ha quedado sin vida.");
-    clearInterval(intervalo); 
+    clearInterval(intervalo);
+  }
 }, 2000);
 
 
